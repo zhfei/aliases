@@ -16,4 +16,6 @@ alias ip='ifconfig en0'
 alias cc='clang -rewrite-objc'
 #将OC源码编译成C、C++
 alias cc2='clang -x objective-c -rewrite-objc -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk'
+#打印当前目录下的目录结构
+alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
 ```
