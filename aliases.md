@@ -18,4 +18,9 @@ alias cc='clang -rewrite-objc'
 alias cc2='clang -x objective-c -rewrite-objc -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk'
 #打印当前目录下的目录结构
 alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
+#插件路径
+alias plug='cd ~/Library/Application\ Support/Developer/Shared/Xcode/Plug-ins'
 ```
+
+添加后执行生效命令
+`source ~/.bash_profile`
