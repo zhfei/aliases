@@ -20,6 +20,12 @@ alias cc2='clang -x objective-c -rewrite-objc -isysroot /Applications/Xcode.app/
 alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
 #插件路径
 alias plug='cd ~/Library/Application\ Support/Developer/Shared/Xcode/Plug-ins'
+
+#-q:不显示进度；-r:当前目录下的目录递归压缩；-e:加密压缩；-m:压缩完删除原文件；-o:压缩后的文件修改时间改为当前压缩时间
+#zip -q -r -e -m -o zipfileName.zip originalFileName
+alias myzip='zip -q -r -o myZip.zip'
+#-d:解压到新目录；-n:不覆盖已有文件
+alias myunzip='unzip -d tmp -n'
 ```
 
 添加后执行生效命令
