@@ -26,6 +26,8 @@ alias plug='cd ~/Library/Application\ Support/Developer/Shared/Xcode/Plug-ins'
 alias myzip='zip -q -r -o myZip.zip'
 #-d:解压到新目录；-n:不覆盖已有文件
 alias myunzip='unzip -d tmp -n'
+#pod update不更新索引源
+alias podup='pod update --no-repo-update'
 ```
 
 添加后执行生效命令
