@@ -62,10 +62,3 @@ alias lsdcount='ls -l|grep "^d"| wc -l'
 ```
 可以将行框内的命令别名直接copy到文件`~/.bash_profile`内，
 添加后执行生效命令`source ~/.bash_profile`
-
-#########################
-#新增命令
-#########################
-`
-gco=git checkout, gcm=git checkout master, gp= git push, gc = git commit, ga = git add, gcp = git cherry-pick
-`
