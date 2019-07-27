@@ -14,8 +14,6 @@ alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
 alias snip='cd ~/Library/Developer/Xcode/UserData/CodeSnippets'
 #XCode代码缓存目录
 alias xcodeCC='cd ~/Library/Developer/Xcode/DerivedData'
-#XCode插件目录
-alias xcodePlug='cd ~/Library/Application\ Support/Developer/Shared/Xcode/Plug-ins'
 #########################
 #########################
 #网络配置类型
