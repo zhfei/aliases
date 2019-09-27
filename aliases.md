@@ -58,6 +58,8 @@ alias lsdcount='ls -l|grep "^d"| wc -l'
 #唤出模拟器
 #查看模拟器列表
 alias simlist='xcrun simctl list'
+#查看所有可用设备列表
+alias devicelist='xcrun instruments -s'
 #调出模拟器
 alias simshow='/Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/MacOS/Simulator -CurrentDeviceUDID'
 #调出模拟器6s
