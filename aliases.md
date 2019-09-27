@@ -54,6 +54,15 @@ alias lsfcount='ls -l|grep "^-"| wc -l'
 #grep "^d":目录类型；wc -l：前面输出的条目个数；ls -l：按照每个数据一行输出
 alias lsdcount='ls -l|grep "^d"| wc -l'
 #########################
+#########################
+#唤出模拟器
+#查看模拟器列表
+alias simlist='xcrun simctl list'
+#调出模拟器
+alias simshow='/Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/MacOS/Simulator -CurrentDeviceUDID'
+#调出模拟器6s
+alias simshow6s='/Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/MacOS/Simulator -CurrentDeviceUDID 0EEEC72D-DEE8-42FE-8192-35772A3F7365'
+#########################
 
 
 #########################
