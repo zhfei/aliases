@@ -57,13 +57,19 @@ alias lsdcount='ls -l|grep "^d"| wc -l'
 #########################
 #唤出模拟器
 #查看模拟器列表
-alias simlist='xcrun simctl list'
+alias sim_listall='xcrun simctl list'
 #查看所有可用设备列表
-alias devicelist='xcrun instruments -s'
-#调出模拟器
-alias simshow='/Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/MacOS/Simulator -CurrentDeviceUDID'
-#调出模拟器6s
-alias simshow6s='/Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/MacOS/Simulator -CurrentDeviceUDID 0EEEC72D-DEE8-42FE-8192-35772A3F7365'
+alias sim_list='xcrun instruments -s'
+#调出模拟器11
+alias sim_show11='xcrun instruments -w "iPhone 11"'
+#调出模拟器 ( + 模拟器名字)
+alias sim_show='xcrun instruments -w'
+#向模拟器安装app ( + app路径)
+alias sim_app_install='xcrun simctl install booted'
+#运行模拟器中的app ( + bundleId <com.example.app>)
+alias sim_app_run='xcrun simctl launch booted'
+#卸载模拟器中的app ( + bundleId <com.example.app>)
+alias sim_app_uninstall='xcrun simctl uninstall booted'
 #########################
 
 
